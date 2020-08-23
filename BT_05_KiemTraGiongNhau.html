@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let a = prompt('Nhap chuoi a');
+    // khoi tao ham a
+    let b = prompt('nhap chuoi b');
+    // khoi tao ham b
+    if (a.length !== b.length) {
+        document.write("khac nhau");
+    }else {
+        for (i = 0;i <a.length;i++) {
+            if (a[i] !== b[i]) {
+                document.write("khac nhau");
+            }else {
+                document.write("giong nhau")
+            }
+        }
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let array = ['a', 'f', '2', '4', '7', 'e', '1', 't',"-5","9"];
+    let anpha = ['a', 'f','e','t','g','h'];
+    let count = 0;
+    let t;
+    for (let i = 0; i < array.length; i++) {
+        if (anpha.indexOf(array[i]) !== -1) {
+            count += 1;
+        }
+    }
+   t = array.length - count;
+    document.write("co " + t +  "so trong mang");
+</script>
+</body>
+</html>
